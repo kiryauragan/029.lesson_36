@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <label for="post_id">Введіть ID (1-100) для пошуку:</label>
+        <input type="number" id="post_id" min="1" max="100" required>
+        <button type="button" id="post_button">Шукати</button>
+    </form>
+
+    <div id="post_body"></div>
+    <div id="comments_container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
